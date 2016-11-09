@@ -24,10 +24,7 @@ def uprint(*objects, sep=' ', end='\n', file=sys.stdout):
         print(*map(f, objects), sep=sep, end=end, file=file)
 
 # Unique code from Twitter
-access_token = 	"3130902574-U9GqTuof5DAkkp1OyvOllDhajhC6YUVwrc2wVEb"
-access_token_secret = 	"p7h3b5MV08o4ZWjy2n2GelVtUb09GLCZeM72ZFoueMPqZ"
-consumer_key = 	"N2oxz2amhLPiY60bNiTrgcsIK"
-consumer_secret = "tkRZA5FQJuvcE5QUJbxrgjzpIXZh4Y1GUTbeLBdPmsTH3CEtO4"
+
 
 # Boilerplate code here
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
